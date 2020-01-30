@@ -1,0 +1,9 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Text files
+*.md      text
+
+# Scripts
+*.sh      text eol=lf
+*.zsh     text eol=lf
