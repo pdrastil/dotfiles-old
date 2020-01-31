@@ -22,5 +22,9 @@ trim_trailing_whitespace = true
 [*.{sh,zsh}]
 end_of_line = lf
 
+[.gitconfig]
+indent_style = tab
+indent_size = 4
+
 [*.md]
 trim_trailing_whitespace = false
