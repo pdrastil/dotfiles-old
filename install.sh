@@ -231,6 +231,8 @@ install_dotfiles(){
     success "Dotfiles already installed. Skipping..."
   fi
 
+  info "Linking dotfiles..."
+  python $DOTFILES/sync.py
   finish
 }
 
